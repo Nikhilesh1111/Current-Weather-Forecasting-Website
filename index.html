@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather forcasting website</title>
+        <link rel="stylesheet" href ="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="heading">
+			<h1>Weather Forecasting</h1>
+		</div>
+
+        <div class="container">
+            <div>
+                <input type="text" class="inputTxt" id="search-input" placeholder="Enter City.....">
+            </div>
+        </div>
+        <div class="containers">
+            <div>
+                <input type="submit" value="Search" id="search-button"class="btn">
+            </div>
+        </div>
+        
+        <div id="app-container">
+                <div id="location">
+                    <p>-------</p>
+                </div>
+                <div id="temp">
+                    <img id="temp-icon" src="./icons1/clear.svg" alt="">
+                    <p><span id="temp-value">-----</span> <span id="temp-unit" >&#176c</span> </p>
+                </div>
+
+                <div id="climate">
+                    <p>------</p>
+                </div>
+
+                <div id="date">
+                    <p>------</p>
+                </div>
+
+        </div>
+
+        <script src="script.js">
+
+        </script>
+    </body>
+
+</html>
